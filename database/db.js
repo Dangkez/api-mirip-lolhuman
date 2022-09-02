@@ -3,9 +3,9 @@ var __path = process.cwd(),
      { color } = require(__path + '/lib/color.js')
 
 // Connection URL
-var url = 'mongodb+srv://triots:<291280lol@@>@cluster0.cro1cuv.mongodb.net/?retryWrites=true&w=majority';
+var url = '';
 try {
-if(url == 'mongodb+srv://triots:<291280lol@@>@cluster0.cro1cuv.mongodb.net/?retryWrites=true&w=majority') throw console.log(color('Configurasi database, var url belum diisi','red'));
+if(url == '') throw console.log(color('Configurasi database, var url belum diisi','red'));
 } catch (e) {
 	return;
 	}
